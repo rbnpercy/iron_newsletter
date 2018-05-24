@@ -1,0 +1,16 @@
+current directory: /worker/bundle/ruby/2.4.0/gems/unf_ext-0.0.7.5/ext/unf_ext
+/usr/bin/ruby -r ./siteconf20180523-1-wfkedm.rb extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /worker/bundle/ruby/2.4.0/gems/unf_ext-0.0.7.5/ext/unf_ext
+make "DESTDIR=" clean
+
+current directory: /worker/bundle/ruby/2.4.0/gems/unf_ext-0.0.7.5/ext/unf_ext
+make "DESTDIR="
+compiling unf.cc
+linking shared-object unf_ext.so
+
+current directory: /worker/bundle/ruby/2.4.0/gems/unf_ext-0.0.7.5/ext/unf_ext
+make "DESTDIR=" install
+install -m 0755 unf_ext.so ./.gem.20180523-1-11jxkaf
